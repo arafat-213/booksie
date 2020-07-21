@@ -149,7 +149,7 @@ header .container .col-md-7 button {
 .cover {
 	width: 100%;
 	height: 55vmin;
-	background: url('./assets/pexels-photo-452738.jpeg');
+	background: url('../assets/pexels-photo-452738.jpeg');
 	background-position: -25rem -19rem;
 	background-size: 150%;
 	position: relative;
@@ -339,4 +339,14 @@ footer .column i {
 
 footer .column i + i {
 	padding: 0 0.5em;
+}
+
+/* Sticky class for navbar */
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: rgba(0,0,0,0.815);
+	z-index: 9999;
+	transition: all 1.5s ease;
 }
